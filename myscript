@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#date
+#cal
+#pwd
+#ls
+#ps aux
+
+# Here i set up some variables
+var1=59
+var2=sheep
+fname=leon
+sname="R'obinson"
+
+# Here I access the variables
+
+echo $var1
+echo $var2
+echo $fname
+echo $sname
+
+#Here I do a test 
+
+if [ -n var1 ]
+then 
+     echo  The test returned true!
+fi 
