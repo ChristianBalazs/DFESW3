@@ -7,6 +7,7 @@
 #ps aux
 
 # Here i set up some variables
+
 var1=59
 var2=sheep
 fname=leon
@@ -21,7 +22,9 @@ echo $sname
 
 #Here I do a test 
 
-if [ -n var1 ]
+if [ $var1 = 59 ]
 then 
      echo  The test returned true!
+else 
+    echo The test is false ! 
 fi 
