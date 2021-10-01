@@ -17,8 +17,30 @@ print(round_number)
 # ask for decimal number input
 # print number1 (whole no) 
 # print number2 (decimal no)
-# take number2 and convert into float type (round up if .5 or more)
-# print round_number as a integer of number2 which has been converted into float beforehand
+# take number2 and convert into float type 
+# print round_number as a integer of ROUNDED number2 which has been converted into float beforehand
 
 #Correct answer
+
+
+
+
+
+# 2. What is this piece of code doing?
+
+name = "Pep Guardogiola"
+age = 3
+bark = True
+tweet = False
+
+print("My pet is called", name, ", He is", age, "years old.")
+print("Statement:", name, "barks.", bark)
+print("Statement:", name, "tweets.", tweet)
+
+
+#Answer:
+
+# first print: "My pet is called Pep Guardiola, He is 3 years old."
+# next print: "Statement:Pep Guardiola barks, TRUE"
+# next print: "Statement:Pep Guardiola tweet, FALSE"
 
