@@ -1,0 +1,32 @@
+
+
+#My solution  wich didn't work
+
+#cd /c/users/M93/DFESW3/$(whoami)
+#mkdir theNewDir
+#cd theNewDir
+#mkdir thesecondDir
+#touch fileOne.txt
+#touch fileTwo.txt
+#mv fileOne.txt /c/users/M93/DFESW3/$(whoami)/theNewDir
+#mv fileOne.txt test1.txt
+#mv fileTwo.txt test2.sh
+#cmod + x  test2.sh
+#./test2.sh
+
+
+
+#!/bin/bash
+cd ~
+mkdir exercise-upper
+cd exercise-upper
+mkdir exercise-lower
+cd exercise-lower
+touch test1.txt
+touch test2.txt
+mv test1.txt ~/exercise-upper
+mv test2.txt test2.sh
+echo "#!/bin/bash" >> test2.sh
+echo "pwd" >> test2.sh
+echo "whoami" >> test2.sh
+./test2.sh

@@ -55,4 +55,31 @@ fi
 
 
 
+#And  here we talk about loops
+
+#iterative loop
+
+#for i in  "cat" "dog" "3" "hat" "sheep"
+#do
+#    echo $i
+#done
+
+
+
+#while loop - not working properly 
+
+mathsvar=1
+
+while [ $mathsvar -lt 10 ]
+do
+    echo $mathsvar
+mathsvar=$(( $mathsvar+1 ))
+done
+
+
+
+
+
+
+
 
