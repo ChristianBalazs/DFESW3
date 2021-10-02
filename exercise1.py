@@ -24,4 +24,4 @@ print(number1, "+", number2, "=", answer)
 # Answer : will prompt to request a first number, then a second number, then display the sum of those numbers as a float )
 # Correct answer: ...then display the entire operation (a+b+=c)  not just the sum.
 
-
+# Attention: ny using float() turns the input number from string (text) type to integer.
