@@ -118,6 +118,21 @@ for i in range(10):
 
 
 
+#Another solution from Luke
+
+digit = 5
+
+for i in range(digit):
+    for x in range(i):
+        print('* ', end="")
+    print ('')
+
+for i in range(digit,0,-1):
+    for x in range(i):
+        print('* ', end="")
+    print ('')
+
+
 
 
 
