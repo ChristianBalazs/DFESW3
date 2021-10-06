@@ -1,7 +1,6 @@
 
 
 import pdb
-
 pdb.set_trace()
 
 booksVar = ['Winnie the Pooh', 'War and Peace', '1984', 'My family and other animals', 'Boy', 'The Art of War', 'Of Mice and Men', 'Peter and James']
