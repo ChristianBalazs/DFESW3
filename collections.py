@@ -76,7 +76,7 @@ print(booksDictionary['Happiness'])
 # However if we try to query what books have been written by an author, we get the following error.
 # KeyError: 'Matthieu Ricard'
 
-print(booksDictionary['Matthieu Ricard'])
+# print(booksDictionary['Matthieu Ricard'])
 
 #This is because "Matthieu Ricard" is a value not a key.
 # Recall we cannot query a dictionary using a value.
