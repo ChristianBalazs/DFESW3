@@ -1,0 +1,10 @@
+Sometimes we do not want to write whole files 
+again from scratch, and instead 
+wish to change one or two small details.
+To do this we need 
+to learn the steps for editing files.
+So far we have worked with files by 
+manually opening and closing them. 
+This can allow for more failure points 
+when working with files, especially when 
+it involves a high number of operations.
